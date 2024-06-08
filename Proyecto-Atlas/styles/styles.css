@@ -1,0 +1,1075 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100vw;
+    height: 640px;
+    background-image: url('../images/banner-bk.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.first-content {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container {
+    margin-left: 128px;
+}
+.logo-container img {
+    width: 66px;
+}
+.get-early-access-container {
+    margin-right: 128px;
+    transition: transform 0.3s ease;
+}
+.get-early-access-container:hover {
+    transform: scale(1.05);
+}
+.get-early-access-container a {
+    font-size: 23px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+.get-early-access-container a:hover {
+    color: #00FFAD;
+}
+.a-new-way-container {
+    font-size: 35px;
+    padding-left: 128px;
+    height: 440px;
+}
+.a-new-way-container h1 {
+    margin: 0;
+    color: #fff;
+}
+.paragraph-container {
+    width: 700px;
+    font-size: 17px;
+}
+.paragraph-container p {
+    margin-top: 40px;
+    margin-left: 5px;
+    color: #fff;
+}
+.get-started-button button {
+    width: 150px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 15px;
+    color: #192440;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.4s ease,
+    color 0.4s ease,
+    background 0.4s ease,
+    border 0.4S ease;
+}
+.get-started-button button:hover {
+    transform: scale(1.03);
+    background: transparent;
+    color: #00FFAD;
+    border: 1px solid #00FFAD;
+}
+
+.contenido1-degradado {
+    padding: 40px 200px;
+}
+
+.contenido1-title {
+    text-align: center;
+
+}
+.contenido1-title h2 {
+    font-size: 55px;
+    color: #292B2C;
+}
+.three-images-padre {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.protection-image1 img,
+.protection-image2 img,
+.protection-image3 img {
+    width: 170px;
+}
+
+.protection-image1 h2,
+.protection-image2 h2,
+.protection-image3 h2 {
+    color: #292B2C;
+}
+
+.protection-image1 p,
+.protection-image2 p,
+.protection-image3 p {
+    color: #292B2C;
+}
+.protection-image1,
+.protection-image2,
+.protection-image3 {
+    text-align: center;
+    padding: 40px 80px 40px 80px;
+}
+.contenido2-degradado {
+    padding: 80px 128px 70px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.take-a-look-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.take-a-look-container {
+    width: 34%;
+    height: 100%;
+}
+.take-a-look-container h1,
+.take-a-look-container p {
+    color: #192440;
+}
+.take-a-look-container h1 {
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+.take-a-look-container p {
+    font-size: 15px;
+}
+.take-a-look-button-1 button {
+    width: 150px;
+    height: 50px;
+    background-color: #192440;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.6s ease,
+    color 0.6s ease,
+    background-color 0.6s ease,
+    border 0.6s ease;
+}
+.take-a-look-button-1 button:hover {
+    transform: scale(1.04);
+    background-color: #00FFAD;
+    color: #192440;
+    border: 1px solid #192440;
+}
+.take-a-look-button-2 button {
+    width: 150px;
+    height: 50px;
+    background-color: #192440;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.6s ease,
+    color 0.6s ease,
+    background-color 0.6s ease,
+    border 0.6s ease;
+}
+.take-a-look-button-2 button:hover {
+    transform: scale(1.04);
+    background-color: #fff;
+    color: #192440;
+    border: 1px solid #192440;
+}
+
+.portatil-image-container img {
+    width: 500px;
+}
+.CONTENIDO-DEGRADADO-PPAL {
+    background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
+    width: 100vw;
+}
+
+.PRICING-PRINCIPAL {
+    width: 100vw;
+}
+.pricing-title {
+    padding: 80px 0 20px 0;
+    text-align: center;
+
+}
+.pricing-title h2 {
+    font-size: 45px;
+    color: #292B2C;
+}
+.flex-container-trilogy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+.container-pricing-1 {
+    transition: transform 0.5s ease;
+    width: 450px;
+    height: 580px;
+}
+.container-pricing-2 {
+    transition: transform 0.5s ease;
+    width: 450px;
+    height: 580px;
+    background-color: #192440;
+}
+.container-pricing-3 {
+    transition: transform 0.5s ease;
+    width: 450px;
+    height: 580px;
+}
+.container-pricing-1:hover,
+.container-pricing-2:hover,
+.container-pricing-3:hover {
+    transform: scale(1.03);
+}
+.container-pricing-2 h2,
+.container-pricing-2 p {
+    color: #fff;
+}
+.container-pricing-1,
+.container-pricing-2,
+.container-pricing-3 {
+    text-align: center;
+    border-radius: 4px;
+}
+.text-higher {
+    font-size: 100px;
+}
+.titles {
+    margin-top: 60px;
+}
+.container-pricing-1 p,
+.container-pricing-2 p,
+.container-pricing-3 p {
+    margin: 24px 0;
+}
+
+.subtitles {
+    margin: 34px 0;
+}
+.button-pricing-BLUE button {
+    width: 120px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 15px;
+    color: #192440;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease,
+        color 0.3s ease,
+        border 0.3s ease,
+        background 0.3s ease;
+}
+.button-pricing-BLUE button:hover {
+    transform: scale(1.02);
+    color: #00FFAD;
+    background: transparent;
+    border: 1px solid #00FFAD;
+}
+.button-pricing button {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 15px;
+    color: #192440;
+    margin-top: 20px;
+    border: solid 2px #192440;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease,
+        color 0.3s ease,
+        background-color 0.3s ease;
+}
+.button-pricing button:hover {
+    transform: scale(1.02);
+    color: #fff;
+    background-color: #192440;
+}
+.LOGO-BRANDS {
+    width: 100vw;
+    height: 220px;
+    background-color: #ECEEEF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 9vw;
+}
+
+.images-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.FORM-PADRE {
+    background-image: url('../images/contact-bk.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 704px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 100px;
+}
+.form-texto {
+    padding: 140px 100px 0 140px;
+}
+.form-texto h2,
+.form-texto p {
+    color: #fff;
+}
+.form-texto h2 {
+    font-size: 45px;
+}
+.form-texto p {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+#p-form {
+    margin-bottom: 40px;
+}
+.form-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 140px 20px 0px;
+    margin-bottom: 30px;
+}
+.input-row {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-bottom: 30px;
+}
+.row1 input,
+.row2 input {
+    width: 258px;
+    height: 36px;
+}
+.message textarea {
+    width: 550px;
+    height: 75px;
+}
+.row1 label,
+.row2 label,
+.message label {
+    color: #00FFAD;
+    font-size: 15px;
+}
+.row1 input,
+.row2 input,
+.message textarea {
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid #00FFAD;
+    border-radius: 4px;
+    color: #fff;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.button-container button {
+    width: 550px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 16px;
+    color: #192440;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease,
+        color 0.3s ease,
+        background 0.3s ease,
+        border 0.3s ease;
+}
+.button-container button:hover {
+    transform: scale(1.02);
+    background: transparent;
+    border: 1px solid #00FFAD;
+    color: #00FFAD;
+}
+footer {
+    height: 120px;
+    width: 100vw;
+    background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-1 p {
+    color: #fff;
+    margin-left: 150px;
+}
+.footer-2 img {
+    width: 200px;
+    margin-right: 150px;
+}
+.three-images-padre a {
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+.three-images-padre a:hover {
+    transform: scale(1.05);
+}
+.row1,
+.row2,
+.message {
+    transition: transform 0.3s ease;
+}
+.row1:hover,
+.row2:hover,
+.message:hover {
+    transform: scale(1.02);
+}
+@media screen and (max-width: 1279px) {
+    body {
+    width: 1279px;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    width: 140vw;
+}
+.paragraph-container p {
+    font-size: 20px;
+}
+.get-started-button button {
+    font-size: 20px;
+}
+.CONTENIDO-DEGRADADO-PPAL {
+    background: linear-gradient(-193deg, #ff0202 60%, #ffd900 50%);
+    width: 140vw;
+}
+.PRICING-PRINCIPAL {
+    width: 140vw;
+    }
+.LOGO-BRANDS {
+    width: 140vw;
+    gap: 2px;
+}
+.LOGO-BRANDS img {
+    height: 30%;
+    width: auto;
+    justify-content: space-between;
+    gap: 0%
+}
+.images-container {
+    gap: 6%;
+    margin-right: 20%;
+}
+.FORM-PADRE {
+    width: 140vw;
+}
+footer {
+    width: 140vw;
+}
+
+}
+@media screen and (max-width: 920px) {
+    body {
+    width: 920px;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    width: 157vw;
+    }
+.contenido1-degradado {
+    padding: 40px 150px 40px 150px;
+    }
+.three-images-padre {
+    gap: 20px;
+}
+.protection-image1,
+.protection-image2,
+.protection-image3 {
+    padding: 0%;
+}
+.form-texto {
+    padding-right: 0px;
+}
+.form-form {
+    padding-left: 40px;
+    padding-right: 120px;
+}
+.CONTENIDO-DEGRADADO-PPAL {
+    width: 157vw;
+}
+.PRICING-PRINCIPAL {
+    width: 157vw;
+}
+.LOGO-BRANDS {
+    width: 157vw;
+}
+.FORM-PADRE {
+        width: 157vw;
+}
+footer {
+    width: 157vw;
+    }
+}body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100vw;
+    height: 640px;
+    background-image: url('../images/banner-bk.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.first-content {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-container {
+    margin-left: 128px;
+}
+.logo-container img {
+    width: 66px;
+}
+.get-early-access-container {
+    margin-right: 128px;
+    transition: transform 0.3s ease;
+}
+.get-early-access-container:hover {
+    transform: scale(1.05);
+}
+.get-early-access-container a {
+    font-size: 23px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+.get-early-access-container a:hover {
+    color: #00FFAD;
+}
+.a-new-way-container {
+    font-size: 35px;
+    padding-left: 128px;
+    height: 440px;
+}
+.a-new-way-container h1 {
+    margin: 0;
+    color: #fff;
+}
+.paragraph-container {
+    width: 700px;
+    font-size: 17px;
+}
+.paragraph-container p {
+    margin-top: 40px;
+    margin-left: 5px;
+    color: #fff;
+}
+.get-started-button button {
+    width: 150px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 15px;
+    color: #192440;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.4s ease,
+    color 0.4s ease,
+    background 0.4s ease,
+    border 0.4S ease;
+}
+.get-started-button button:hover {
+    transform: scale(1.03);
+    background: transparent;
+    color: #00FFAD;
+    border: 1px solid #00FFAD;
+}
+
+.contenido1-degradado {
+    padding: 40px 200px;
+}
+
+.contenido1-title {
+    text-align: center;
+
+}
+.contenido1-title h2 {
+    font-size: 55px;
+    color: #292B2C;
+}
+.three-images-padre {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.protection-image1 img,
+.protection-image2 img,
+.protection-image3 img {
+    width: 170px;
+}
+
+.protection-image1 h2,
+.protection-image2 h2,
+.protection-image3 h2 {
+    color: #292B2C;
+}
+
+.protection-image1 p,
+.protection-image2 p,
+.protection-image3 p {
+    color: #292B2C;
+}
+.protection-image1,
+.protection-image2,
+.protection-image3 {
+    text-align: center;
+    padding: 40px 80px 40px 80px;
+}
+.contenido2-degradado {
+    padding: 80px 128px 70px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.take-a-look-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.take-a-look-container {
+    width: 34%;
+    height: 100%;
+}
+.take-a-look-container h1,
+.take-a-look-container p {
+    color: #192440;
+}
+.take-a-look-container h1 {
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+.take-a-look-container p {
+    font-size: 15px;
+}
+.take-a-look-button-1 button {
+    width: 150px;
+    height: 50px;
+    background-color: #192440;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.6s ease,
+    color 0.6s ease,
+    background-color 0.6s ease,
+    border 0.6s ease;
+}
+.take-a-look-button-1 button:hover {
+    transform: scale(1.04);
+    background-color: #00FFAD;
+    color: #192440;
+    border: 1px solid #192440;
+}
+.take-a-look-button-2 button {
+    width: 150px;
+    height: 50px;
+    background-color: #192440;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition: transform 0.6s ease,
+    color 0.6s ease,
+    background-color 0.6s ease,
+    border 0.6s ease;
+}
+.take-a-look-button-2 button:hover {
+    transform: scale(1.04);
+    background-color: #fff;
+    color: #192440;
+    border: 1px solid #192440;
+}
+
+.portatil-image-container img {
+    width: 500px;
+}
+.CONTENIDO-DEGRADADO-PPAL {
+    background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%);
+    width: 100vw;
+}
+
+.PRICING-PRINCIPAL {
+    width: 100vw;
+}
+.pricing-title {
+    padding: 80px 0 20px 0;
+    text-align: center;
+
+}
+.pricing-title h2 {
+    font-size: 45px;
+    color: #292B2C;
+}
+.flex-container-trilogy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+.container-pricing-1 {
+    transition: transform 0.5s ease;
+    width: 450px;
+    height: 580px;
+}
+.container-pricing-2 {
+    transition: transform 0.5s ease;
+    width: 450px;
+    height: 580px;
+    background-color: #192440;
+}
+.container-pricing-3 {
+    transition: transform 0.5s ease;
+    width: 450px;
+    height: 580px;
+}
+.container-pricing-1:hover,
+.container-pricing-2:hover,
+.container-pricing-3:hover {
+    transform: scale(1.03);
+}
+.container-pricing-2 h2,
+.container-pricing-2 p {
+    color: #fff;
+}
+.container-pricing-1,
+.container-pricing-2,
+.container-pricing-3 {
+    text-align: center;
+    border-radius: 4px;
+}
+.text-higher {
+    font-size: 100px;
+}
+.titles {
+    margin-top: 60px;
+}
+.container-pricing-1 p,
+.container-pricing-2 p,
+.container-pricing-3 p {
+    margin: 24px 0;
+}
+
+.subtitles {
+    margin: 34px 0;
+}
+.button-pricing-BLUE button {
+    width: 120px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 15px;
+    color: #192440;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease,
+        color 0.3s ease,
+        border 0.3s ease,
+        background 0.3s ease;
+}
+.button-pricing-BLUE button:hover {
+    transform: scale(1.02);
+    color: #00FFAD;
+    background: transparent;
+    border: 1px solid #00FFAD;
+}
+.button-pricing button {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 15px;
+    color: #192440;
+    margin-top: 20px;
+    border: solid 2px #192440;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease,
+        color 0.3s ease,
+        background-color 0.3s ease;
+}
+.button-pricing button:hover {
+    transform: scale(1.02);
+    color: #fff;
+    background-color: #192440;
+}
+.LOGO-BRANDS {
+    width: 100vw;
+    height: 220px;
+    background-color: #ECEEEF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 9vw;
+}
+
+.images-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.FORM-PADRE {
+    background-image: url('../images/contact-bk.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 704px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 100px;
+}
+.form-texto {
+    padding: 140px 100px 0 140px;
+}
+.form-texto h2,
+.form-texto p {
+    color: #fff;
+}
+.form-texto h2 {
+    font-size: 45px;
+}
+.form-texto p {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+#p-form {
+    margin-bottom: 40px;
+}
+.form-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 140px 20px 0px;
+    margin-bottom: 30px;
+}
+.input-row {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-bottom: 30px;
+}
+.row1 input,
+.row2 input {
+    width: 258px;
+    height: 36px;
+}
+.message textarea {
+    width: 550px;
+    height: 75px;
+}
+.row1 label,
+.row2 label,
+.message label {
+    color: #00FFAD;
+    font-size: 15px;
+}
+.row1 input,
+.row2 input,
+.message textarea {
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid #00FFAD;
+    border-radius: 4px;
+    color: #fff;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.button-container button {
+    width: 550px;
+    height: 50px;
+    background-color: #00FFAD;
+    font-size: 16px;
+    color: #192440;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s ease,
+        color 0.3s ease,
+        background 0.3s ease,
+        border 0.3s ease;
+}
+.button-container button:hover {
+    transform: scale(1.02);
+    background: transparent;
+    border: 1px solid #00FFAD;
+    color: #00FFAD;
+}
+footer {
+    height: 120px;
+    width: 100vw;
+    background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-1 p {
+    color: #fff;
+    margin-left: 150px;
+}
+.footer-2 img {
+    width: 200px;
+    margin-right: 150px;
+}
+.three-images-padre a {
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+.three-images-padre a:hover {
+    transform: scale(1.05);
+}
+.row1,
+.row2,
+.message {
+    transition: transform 0.3s ease;
+}
+.row1:hover,
+.row2:hover,
+.message:hover {
+    transform: scale(1.02);
+}
+@media screen and (max-width: 1279px) {
+    body {
+    width: 1279px;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    width: 140vw;
+}
+.paragraph-container p {
+    font-size: 20px;
+}
+.get-started-button button {
+    font-size: 20px;
+}
+.CONTENIDO-DEGRADADO-PPAL {
+    background: linear-gradient(-193deg, #ff0202 60%, #ffd900 50%);
+    width: 140vw;
+}
+.PRICING-PRINCIPAL {
+    width: 140vw;
+    }
+.LOGO-BRANDS {
+    width: 140vw;
+    gap: 2px;
+}
+.LOGO-BRANDS img {
+    height: 30%;
+    width: auto;
+    justify-content: space-between;
+    gap: 0%
+}
+.images-container {
+    gap: 6%;
+    margin-right: 20%;
+}
+.FORM-PADRE {
+    width: 140vw;
+}
+footer {
+    width: 140vw;
+}
+
+}
+@media screen and (max-width: 920px) {
+    body {
+    width: 920px;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    width: 157vw;
+    }
+.contenido1-degradado {
+    padding: 40px 150px 40px 150px;
+    }
+.three-images-padre {
+    gap: 20px;
+}
+.protection-image1,
+.protection-image2,
+.protection-image3 {
+    padding: 0%;
+}
+.form-texto {
+    padding-right: 0px;
+}
+.form-form {
+    padding-left: 40px;
+    padding-right: 120px;
+}
+.CONTENIDO-DEGRADADO-PPAL {
+    width: 157vw;
+}
+.PRICING-PRINCIPAL {
+    width: 157vw;
+}
+.LOGO-BRANDS {
+    width: 157vw;
+}
+.FORM-PADRE {
+        width: 157vw;
+}
+footer {
+    width: 157vw;
+    }
+}
